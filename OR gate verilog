@@ -1,0 +1,7 @@
+//gate level modeling
+module or_gate_level (a,b,y); 
+input a; 
+input b; 
+output y; 
+or (y, a, b); 
+endmodule
