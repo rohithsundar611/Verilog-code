@@ -1,0 +1,7 @@
+//gate level modeling
+module xor_gate_level (a,b,y); 
+input a; 
+input b; 
+output y; 
+xor (y, a, b); 
+endmodule 
